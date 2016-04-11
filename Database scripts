@@ -1,5 +1,5 @@
 
-Script to create Table for members.
+--Script to create Table for members.
 CREATE TABLE MEMBER_REGISTRATION                                                                                                            
     -> (MEMBER_ID NUMBER,   
     -> MEMBER_TYPE VARCHAR(50),
@@ -10,7 +10,7 @@ CREATE TABLE MEMBER_REGISTRATION
     -> STATUS VARCHAR(50)                                                                                                                                     
     -> );              
     
-Script to create Table for Books.
+--Script to create Table for Books.
 CREATE TABLE BOOK_DETAILS                                                                                                           
     -> (BOOK_CODE VARCHAR(50),   
     -> BOOK_TITLE VARCHAR(50),
