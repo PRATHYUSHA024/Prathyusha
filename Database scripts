@@ -21,7 +21,16 @@ CREATE TABLE BOOK_DETAILS
     -> NO_OF_BOOKS NUMBER,
     -> BOOK_CATEGORY VARCHAR(50),
     -> BOOK_AVAILABILITY_FLAG VAECHAR(50)
-    );
+    -> );
     
-);              
+--Script to create table for book_issue.
+  CREATE TABLE BOOK_ISSUE                                                                                                         
+    -> (MEMBER_ID VARCHAR(50),   
+    -> BOOK_CODE VARCHAR(50),
+    -> AUTHOR VARCHAR(50),                                                                                                                                      
+    -> BOOK_TITLE VARCHAR(50),                                                                                                                                  
+    -> ISSUED_BY NUMBER,                                                                                                                                       
+    -> ISSUE_DATE DATE,                                                                                                                                         
+    -> DUE_DATE DATE
+    -> );
   
