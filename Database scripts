@@ -1,0 +1,27 @@
+
+Script to create Table for members.
+CREATE TABLE MEMBER_REGISTRATION                                                                                                            
+    -> (MEMBER_ID NUMBER,   
+    -> MEMBER_TYPE VARCHAR(50),
+    -> NAME VARCHAR(50),                                                                                                                                      
+    -> ADDRESS VARCHAR(200),                                                                                                                                  
+    -> START_DATE DATE,                                                                                                                                       
+    -> END_DATE DATE,                                                                                                                                         
+    -> STATUS VARCHAR(50)                                                                                                                                     
+    -> );              
+    
+Script to create Table for Books.
+CREATE TABLE BOOK_DETAILS                                                                                                           
+    -> (BOOK_CODE VARCHAR(50),   
+    -> BOOK_TITLE VARCHAR(50),
+    -> AUTHOR VARCHAR(50),                                                                                                                                      
+    -> DATE_OF_ARRIVAL DATE,                                                                                                                                  
+    -> PRICE NUMBER,                                                                                                                                       
+    -> RACK_NO NUMBER,                                                                                                                                         
+    -> NO_OF_BOOKS NUMBER,
+    -> BOOK_CATEGORY VARCHAR(50),
+    -> BOOK_AVAILABILITY_FLAG VAECHAR(50)
+    );
+    
+);              
+  
